@@ -1,0 +1,51 @@
+{
+  "name": "Tumor Ablation",
+  "description": "Focused ultrasound for therapeutic tumor ablation with multiple arrays",
+  "mode": "ultrasound",
+  "steeringAngle": 0,
+  "arrays": [
+    {
+      "id": 1,
+      "name": "Array 1",
+      "position": {
+        "x": -3,
+        "y": 0
+      },
+      "rotation": 30,
+      "elements": 32,
+      "spacing": 0.4,
+      "curvature": 0.2,
+      "target": {
+        "x": 0,
+        "y": 5
+      },
+      "followTarget": true
+    },
+    {
+      "id": 2,
+      "name": "Array 2",
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "rotation": -30,
+      "elements": 32,
+      "spacing": 0.4,
+      "curvature": 0.2,
+      "target": {
+        "x": 0,
+        "y": 5
+      },
+      "followTarget": true
+    }
+  ],
+  "frequencyComponents": [
+    {
+      "id": 1,
+      "frequency": 1.5,
+      "amplitude": 1,
+      "phase": 0,
+      "unit": "MHz"
+    }
+  ]
+}

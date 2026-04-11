@@ -1,0 +1,34 @@
+{
+  "name": "Ultrasound Imaging",
+  "description": "Medical ultrasound imaging with curved array transducer",
+  "mode": "ultrasound",
+  "steeringAngle": -15,
+  "arrays": [
+    {
+      "id": 1,
+      "name": "Ultrasound Probe",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "rotation": 0,
+      "elements": 64,
+      "spacing": 0.3,
+      "curvature": 0.15,
+      "target": {
+        "x": -2,
+        "y": 6
+      },
+      "followTarget": false
+    }
+  ],
+  "frequencyComponents": [
+    {
+      "id": 1,
+      "frequency": 5,
+      "amplitude": 1,
+      "phase": 0,
+      "unit": "MHz"
+    }
+  ]
+}

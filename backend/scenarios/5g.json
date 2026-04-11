@@ -1,0 +1,34 @@
+{
+  "name": "5G Communications",
+  "description": "5G beamforming for directional wireless communications",
+  "mode": "rf",
+  "steeringAngle": 0,
+  "arrays": [
+    {
+      "id": 1,
+      "name": "Base Station Array",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "rotation": 0,
+      "elements": 64,
+      "spacing": 0.5,
+      "curvature": 0,
+      "target": {
+        "x": 8,
+        "y": 5
+      },
+      "followTarget": true
+    }
+  ],
+  "frequencyComponents": [
+    {
+      "id": 1,
+      "frequency": 28,
+      "amplitude": 1,
+      "phase": 0,
+      "unit": "GHz"
+    }
+  ]
+}
